@@ -33,23 +33,10 @@ exports.config = {
       outputDir: './'
   },
 
-  /**
-   * hooks
-   */
-  onPrepare: function() {
-
-  },
-
   before: function(){
     var timeout = 5000;
     browser.timeouts('page load', timeout);
     browser.timeouts('implicit', timeout);
-    var utils = require('./utils');
-    utils.setupCommands(browser, timeout);
   },
-
-  onComplete: function() {
-
-  }
 
 };

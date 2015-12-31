@@ -4,7 +4,6 @@
   "private": "true",
   "dependencies": {
     "cucumber": "^0.7.0",
-    "expect.js": "^0.3.1",
     "selenium-standalone": "^4.8.0",
     "webdriverio": "^3.4.0"
   }

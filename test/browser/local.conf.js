@@ -36,7 +36,7 @@ exports.config = {
   before: function(){
     var timeout = 5000;
     browser.timeouts('page load', timeout);
-    browser.timeouts('implicit', timeout);
+    //brow'ser.timeouts('implicit', timeout);
   },
 
 };
